@@ -200,7 +200,7 @@ def do_image():
 
 def do_video():
   # Read Video
-  cap = cv2.VideoCapture("test.mp4")
+  cap = cv2.VideoCapture("test1.mp4")
   print(cap.isOpened())
 
   # Dev: Skip to frame 600
